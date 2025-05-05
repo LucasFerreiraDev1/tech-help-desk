@@ -12,28 +12,49 @@
 }
 
 header {
-    background-color: var(--color-navbar);
+    background-color:var(--color-navbar);
     padding: 10px;
-
-    & nav {
-        display: flex;
-        align-items: center;
-        max-width: 80%;
-        margin-inline: auto;
-        
-        & .logo {
-            display: flex;
-            text-decoration: none;
-
-            & h1 {
-                align-self: center;
-                color: #fff;
-                font-size: 1.3rem;
-                font-weight: 400;
-            }
-        }
-    }
 }
+
+/* Navegação */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo .title-logo {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-item .nav-link {
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover {
+    color: #ccc;
+}
+
+/* Tela de Login */
 
 main#login {
     display: flex;
@@ -47,42 +68,98 @@ main#login {
     border-radius: 5px;
     overflow: hidden;
     width: 400px;
-
-    & .header-nav {
-        background-color: #f2f2f2;
-        border-bottom: 1px solid #ccc;
-        padding: 10px;
-
-        & h3 {
-            font-weight: 500;
-        }
-    }
-    & form {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
-
-        & input {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 1rem;
-            padding: 10px;
-            outline: none;
-            width: 100%;
-
-            &:focus {
-                border: 1px solid #17a2b8;
-            }
-        }
-
-        & #btn_login {
-            background-color: #17a2b8;
-            border: none;
-            border-radius: 5px;
-            color: #fff;
-            font-size: 1.1rem;
-            padding: 15px;
-        }
-    }
 }
+.header-login {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.title-login {
+    font-weight: 500;
+}
+
+/* Formulario de login */
+
+#form_login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+.input-login {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+}
+.input-login:focus {
+    border: 1px solid #17a2b8;
+}
+#btn_login {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+}
+#btn_login:hover {
+    background-color: #117686;
+}
+
+/* Estilos da Home */
+
+main#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.container-home {
+    box-shadow: 0 0 8px 0px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    height: 70%;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.header-home {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.title-home {
+    color: #344B59;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-indent: 10px;
+}
+
+.menu-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 20px;
+}
+.link-home {
+    text-decoration: none;
+}
+.img-home {
+    width: 100px;
+}
+.description-home {
+    color: #344B59;
+    cursor: pointer;
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+
+/* Estilos Abrir chamado */
+
