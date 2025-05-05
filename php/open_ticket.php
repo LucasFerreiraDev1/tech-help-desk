@@ -8,31 +8,18 @@
     <title>Tech Help Desk</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="home.php" class="logo">
-                <img src="../src/svg/logo.svg" alt="Tech Help Desk" width="40">
-                <h1 class="title-logo">Tech Help Desk</h1>
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="consult.php" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i> consultar</a>
-                </li>
-                <li class="nav-item">
-                    <a href="logoff.php" class="nav-link"><i class="fa-solid fa-arrow-right-to-bracket"></i> sair</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+        include_once 'navbar.php';
+    ?>
     <main id="open_ticket">
         <div class="container-open">
             <div class="header-open">
                 <h3 class="title-open"><i class="fa-solid fa-file-circle-plus"></i> Abrindo chamando</h3>
             </div>
-            <form action="" method="post">
+            <form action="" method="post" id="form_open">
                 <div class="form-control">
                     <label for="title">Título</label>
-                    <input type="text" name="title" id="title">
+                    <input type="text" name="title" id="title" placeholder="Título">
                 </div>
                 <div class="form-control">
                     <label for="category">Categoria</label>
@@ -48,9 +35,9 @@
                     <label for="description">Descrição</label>
                     <textarea name="description" id="description"></textarea>
                 </div>
-                <div class="form-btn">
-                    <a href="home.php">Voltar</a>
-                    <button type="submit">Abrir</button>
+                <div class="btns-open">
+                    <a href="home.php" class="btn-back">Voltar</a>
+                    <button type="submit" id="btn_open">Abrir</button>
                 </div>
             </form>
         </div>

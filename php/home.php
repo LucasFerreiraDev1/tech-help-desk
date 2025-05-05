@@ -8,22 +8,9 @@
     <title>Tech Help Desk</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="home.php" class="logo">
-                <img src="../src/svg/logo.svg" alt="Tech Help Desk" width="40">
-                <h1 class="title-logo">Tech Help Desk</h1>
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="consult.php" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i> consultar</a>
-                </li>
-                <li class="nav-item">
-                    <a href="logoff.php" class="nav-link"><i class="fa-solid fa-arrow-right-to-bracket"></i> sair</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+        include_once 'navbar.php';
+    ?>
     <main id="home">
        <div class="container-home">
             <div class="header-home">
@@ -37,7 +24,7 @@
                     <span class="description-home">Abrir Chamado</span>
                 </div>
                 <div class="card-home">
-                    <a href="consult_ticket.php" class="link-home">
+                    <a href="consult.php" class="link-home">
                         <img src="../src/svg/consult-ticket.svg" alt="Abrir Chamado" class="img-home">
                     </a>
                     <span class="description-home">Consultar Chamado</span>
