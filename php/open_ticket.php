@@ -14,7 +14,7 @@
     <main id="open_ticket">
         <div class="container-open">
             <div class="header-open">
-                <h3 class="title-open"><i class="fa-solid fa-file-circle-plus"></i> Abrindo chamando</h3>
+                <h3 class="title-open"><i class="fa-solid fa-file-circle-plus"></i> Abrindo chamado</h3>
             </div>
             <form action="" method="post" id="form_open">
                 <div class="form-control">
