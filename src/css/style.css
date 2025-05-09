@@ -295,7 +295,7 @@ main#consult {
         box-shadow: 0 0 7px 1px rgba(0,0,0,0.4);
         position: absolute;
         top: 60px;
-        right: 70px;
+        right: 50px;
         height: 0;
         interpolate-size: allow-keywords;
         transition: height .5s ease;
