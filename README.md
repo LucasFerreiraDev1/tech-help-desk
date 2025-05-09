@@ -58,7 +58,7 @@ O **Tech Help Desk** é uma aplicação web simples desenvolvida com PHP, HTML, 
 
 1. Clone o repositório:
 ```
-git clone https://github.com/seu-usuario/tech-help-desk.git
+git clone https://github.com/LuksDevs/tech_help_desk.git
 ``` 
 2. Coloque o projeto em um ambiente com suporte a PHP (ex: XAMPP ou servidor Apache).
 3. Inicie o servidor e acesse:
