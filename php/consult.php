@@ -2,7 +2,7 @@
     require_once './validate_session.php'; 
 
     $register_call = [];
-    $registerBD = fopen('./login.php', 'r');
+    $registerBD = fopen('../private/register.db', 'r');
 
     while(!feof($registerBD)) {
         $register = fgets($registerBD);

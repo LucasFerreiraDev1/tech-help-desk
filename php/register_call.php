@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $registerBD = fopen('./login.php', 'a');
+    $registerBD = fopen('../private/register.db', 'a');
 
     $title = str_replace('#', '-', $_POST['title']);
     $category = str_replace('#', '-', $_POST['category']);
