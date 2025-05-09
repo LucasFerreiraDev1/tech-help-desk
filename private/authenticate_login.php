@@ -9,10 +9,10 @@
     $users_app = [
         ['id' => 1, 'email' => 'adm@email.com', 'password' => '1234', 'permission_id' => 1],
         ['id' => 2, 'email' => 'LuksDevs@outlook.com.br', 'password' => '12345', 'permission_id' => 1],
-        ['id' => 6, 'email' => 'joca@email.com', 'password' => '1234', 'permission_id' => 2],
-        ['id' => 7, 'email' => 'peppa@email.com', 'password' => '1234', 'permission_id' => 2],
-        ['id' => 8, 'email' => 'pateta@email.com', 'password' => '1234', 'permission_id' => 2],
-        ['id' => 9, 'email' => 'user@email.com', 'password' => '1234', 'permission_id' => 2],
+        ['id' => 6, 'email' => 'user01@email.com', 'password' => '1234', 'permission_id' => 2],
+        ['id' => 7, 'email' => 'user02@email.com', 'password' => '1234', 'permission_id' => 2],
+        ['id' => 8, 'email' => 'user03@email.com', 'password' => '1234', 'permission_id' => 2],
+        ['id' => 9, 'email' => 'user04@email.com', 'password' => '1234', 'permission_id' => 2],
 
     ];
 
