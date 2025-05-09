@@ -1,6 +1,6 @@
 # Tech Help Desk
 
-O **Tech Help Desk** é uma aplicação web simples desenvolvida com PHP, HTML, CSS e JavaScript, com o objetivo de registrar e consultar chamados técnicos relacionados a problemas de **hardware**, **software**, **rede** e **impressoras**. Ideal para ambientes internos, como empresas ou escolas, onde usuários podem relatar problemas e acompanhar seus Chamados.
+**Tech Help Desk** é um sistema web básico de abertura e consulta de chamados de suporte técnico. Usuários autenticados podem registrar problemas, classificá-los por categoria e consultar seus chamados. O sistema possui controle de sessão, níveis de permissão (usuário e administrador) e armazenamento dos chamados em arquivo. Ideal para fins didáticos e demonstrações simples de autenticação e manipulação de dados com **PHP**.
 
 ---
 
