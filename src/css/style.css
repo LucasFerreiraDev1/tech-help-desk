@@ -48,10 +48,10 @@ header {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-}
 
-.nav-item .nav-link:hover {
-    color: #ccc;
+    &:hover {
+        color: #ccc;
+    }
 }
 
 /* Tela de Login */
