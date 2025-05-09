@@ -13,7 +13,7 @@
 
 header {
     background-color:var(--color-navbar);
-    padding: 10px;
+    padding-block: 10px;
     position: relative;
 }
 
@@ -286,6 +286,9 @@ main#consult {
 /* Media queries */
 
 @media screen and (max-width: 720px){
+    .navbar {
+        max-width: 90%;
+    }
     .btn-navbar {
         display: block;
     }
@@ -295,7 +298,7 @@ main#consult {
         box-shadow: 0 0 7px 1px rgba(0,0,0,0.4);
         position: absolute;
         top: 60px;
-        right: 50px;
+        right: 20px;
         height: 0;
         interpolate-size: allow-keywords;
         transition: height .5s ease;
