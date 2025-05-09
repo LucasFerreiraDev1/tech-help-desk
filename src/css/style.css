@@ -14,6 +14,7 @@
 header {
     background-color:var(--color-navbar);
     padding: 10px;
+    position: relative;
 }
 
 /* Navegação */
@@ -53,7 +54,15 @@ header {
         color: #ccc;
     }
 }
-
+.btn-navbar {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 1.2rem;
+    outline: none;
+}
 /* Tela de Login */
 
 .container-login {
@@ -271,4 +280,44 @@ main#home,
 main#open_ticket,
 main#consult {
     padding: 50px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 720px){
+    .btn-navbar {
+        display: block;
+    }
+    .menu-dropdown {
+        background-color: #f2f2f2;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0 0 7px 1px rgba(0,0,0,0.4);
+        position: absolute;
+        top: 60px;
+        right: 70px;
+        height: 0;
+        interpolate-size: allow-keywords;
+        transition: height .5s ease;
+        overflow: hidden;
+    }
+
+    .menu-dropdown.active {
+        height: auto;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-item:hover {
+        background-color: #117686;
+        color: #fff;
+    }
+    .nav-item .nav-link {
+        color: #000;
+        display: block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
 }
