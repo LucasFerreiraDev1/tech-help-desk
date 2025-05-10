@@ -7,8 +7,8 @@ $permission_id = null;
 
 $permission = ['admin' => 1, 'user' => 2];
 $users_app = [
-   ['id' => 1, 'email' => 'adm@email.com', 'password' => 'helpdeskadm', 'permission_id' => 1],
-   ['id' => 2, 'email' => 'LuksDevs@email.com', 'password' => 'helpdeskadm', 'permission_id' => 1],
+   ['id' => 1, 'email' => 'LuksDevs@email.com', 'password' => 'helpdeskadm', 'permission_id' => 1],
+   ['id' => 2, 'email' => 'adm@email.com', 'password' => 'helpdeskadm', 'permission_id' => 1],
    ['id' => 6, 'email' => 'user01@email.com', 'password' => 'helpdeskuser', 'permission_id' => 2],
    ['id' => 7, 'email' => 'user02@email.com', 'password' => 'helpdeskuser', 'permission_id' => 2],
    ['id' => 8, 'email' => 'user03@email.com', 'password' => 'helpdeskuser', 'permission_id' => 2]
