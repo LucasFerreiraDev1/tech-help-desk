@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="src/css/style.css" class="logo">
+            <a href="index.php" class="logo">
                 <img src="src/svg/logo.svg" alt="Tech Help Desk" width="40">
                 <h1 class="title-logo">Tech Help Desk</h1>
             </a>
