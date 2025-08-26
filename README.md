@@ -112,4 +112,4 @@ Este projeto é livre para fins de estudo e aprendizado. Sinta-se à vontade par
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[LuksDevs](https://github.com/LucasFerreiraDev1)** 🚀
+Desenvolvido por **[Lucas Ferreira](https://github.com/LucasFerreiraDev1)** 🚀
