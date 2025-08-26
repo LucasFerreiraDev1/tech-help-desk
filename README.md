@@ -58,7 +58,7 @@
 
 1. Clone o repositório:
 ```
-git clone https://github.com/LuksDevs/tech_help_desk.git
+git clone https://github.com/LucasFerreiraDev1/tech_help_desk.git
 ``` 
 2. Coloque o projeto em um ambiente com suporte a PHP (ex: XAMPP ou servidor Apache).
 3. Inicie o servidor e acesse:
@@ -112,4 +112,4 @@ Este projeto é livre para fins de estudo e aprendizado. Sinta-se à vontade par
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[LuksDevs](https://github.com/LuksDevs)** 🚀
+Desenvolvido por **[LuksDevs](https://github.com/LucasFerreiraDev1)** 🚀
